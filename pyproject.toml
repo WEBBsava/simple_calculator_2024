@@ -2,7 +2,7 @@
 name = "simple-calculator"
 version = "0.1.0"
 description = "Simple calcuulator example to be used with unit testing"
-authors = ["Your Name <you@example.com>"]
+authors = ["Savannah Webb <webbsav2@isu.edu>"]
 license = "Apache 2.0"
 readme = "README.md"
 packages = [
@@ -11,7 +11,11 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.11"
+quart = "^0.19.4"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
 
 [build-system]
 requires = ["poetry-core"]
