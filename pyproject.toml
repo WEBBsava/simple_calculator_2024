@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "simple-calculator"
 version = "0.1.0"
-description = "Simple calcuulator example to be used with unit testing"
+description = "Simple calculator example to be used with unit testing"
 authors = ["Savannah Webb <webbsav2@isu.edu>"]
 license = "Apache 2.0"
 readme = "README.md"
@@ -12,6 +12,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.11"
 quart = "^0.19.4"
+pytest = "^8.1.1"
 
 
 [tool.poetry.group.dev.dependencies]
