@@ -24,4 +24,5 @@ WORKDIR /app/simple_calculator_2024
 RUN git checkout main \
     && poetry install
 
+ENTRYPOINT ["poetry"]
 CMD ["run", "pytest"]
